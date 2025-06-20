@@ -1,0 +1,2 @@
+$lualatex = 'lualatex -shell-escape -output-directory=out %O %S';
+ENV{'TEXMFOUTPUT'} = 'out';
