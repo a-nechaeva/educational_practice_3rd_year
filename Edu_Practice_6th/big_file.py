@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 from typing import Tuple, Dict
 
-# Regular spiking
+
 regular_spiking_params = {
     'a': 0.02,
     'b': 0.2,
@@ -14,7 +14,6 @@ regular_spiking_params = {
     'tt': 'Regular spiking'
 }
 
-# Fast spiking
 fast_spiking_params = {
     'a': 0.1,
     'b': 0.2,
@@ -25,7 +24,6 @@ fast_spiking_params = {
     'tt': 'Fast spiking'
 }
 
-# Low-threshold spiking
 low_threshold_spiking_params = {
     'a': 0.02,
     'b': 0.25,
@@ -36,7 +34,6 @@ low_threshold_spiking_params = {
     'tt': 'Low-threshold spiking'
 }
 
-# Resonator
 resonator_params = {
     'a': 0.1,
     'b': 0.26,
@@ -47,7 +44,6 @@ resonator_params = {
     'tt': 'Resonator'
 }
 
-# Intrinsically bursting
 intrinsically_bursting_params = {
     'a': 0.02,
     'b': 0.2,
@@ -58,7 +54,6 @@ intrinsically_bursting_params = {
     'tt': 'Intrinsically bursting'
 }
 
-# Chattering
 chattering_params = {
     'a': 0.02,
     'b': 0.2,
@@ -69,7 +64,7 @@ chattering_params = {
     'tt': 'Chattering'
 }
 
-#  Izhikevich model
+
 def izhikevich_model(state, t, params):
     v, u = state
     a, b, I = params['a'], params['b'], params['I']
@@ -92,14 +87,12 @@ def simulate_izhikevich(params, t_max=200, dt=0.001):
     u = np.zeros(n_steps)
     v[0], u[0] = v0, u0
 
-    #  Integration
     for i in range(1, n_steps):
         state = [v[i-1], u[i-1]]
         new_state = odeint(izhikevich_model, state, [0, dt], args=(params,))[1]
 
         v[i], u[i] = new_state
 
-        #  After-spike resetting
         if v[i] >= 30:
             v[i] = c
             u[i] += d

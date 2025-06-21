@@ -1,11 +1,12 @@
 \babel@toc {russian}{}\relax 
-\contentsline {chapter}{\chapternumberline {1}Введение}{3}{chapter.1}%
+\contentsline {chapter}{\chapternumberline {1}Цели и задачи работы}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Цель работы}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Задачи}{3}{section.1.2}%
 \contentsline {chapter}{\chapternumberline {2}Математическая модель биологического нейрона}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Модель Ижикевича}{4}{section.2.1}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {2.2}Параметры модели}{4}{section.2.2}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
@@ -14,17 +15,27 @@
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {2.2}Виды нейронов}{5}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Регулярно-спайковые (Regular spiking)}{5}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Быстро-спайковые (Fast spiking)}{5}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Низкопороговые спайковые (Low-threshold spiking)}{6}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Резиллерно-спаковые (Resonator)}{6}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Интринсивно-всплесковые (Intrinsically bursting)}{6}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Частотные (Chattering)}{6}{subsection.2.2.6}%
+\contentsline {section}{\numberline {2.3}Виды нейронов}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Регулярно-спайковые (Regular spiking)}{5}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Быстро-спайковые (Fast spiking)}{5}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Низкопороговые спайковые (Low-threshold spiking)}{6}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Резонансные (Resonator)}{6}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Внутренне разрывные (Intrinsically bursting)}{6}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Чаттерные (Chattering)}{6}{subsection.2.3.6}%
 \contentsline {chapter}{\chapternumberline {3}Моделирование}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Визуализация}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Листинг кода}{16}{section.3.2}%
-\contentsline {chapter}{\chapternumberline {4}Вывод}{19}{chapter.4}%
-\contentsline {chapter}{Список использованных источников}{20}{section*.21}%
+\contentsline {section}{\numberline {3.2}Анализ результатов}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Листинг кода}{16}{section.3.3}%
+\contentsline {chapter}{\chapternumberline {4}Построение сети из двух связанных нейронов}{20}{chapter.4}%
+\babel@toc {russian}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{\chapternumberline {5}Проведение моделирования при различных значениях силы связи}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Визуализация}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Анализ результатов}{22}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Листинг кода}{22}{section.5.3}%
+\contentsline {chapter}{\chapternumberline {6}Заключение}{25}{chapter.6}%
+\contentsline {chapter}{Список использованных источников}{26}{section*.23}%
 \babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {russian}{}\relax 
 \babel@toc {russian}{}\relax 
